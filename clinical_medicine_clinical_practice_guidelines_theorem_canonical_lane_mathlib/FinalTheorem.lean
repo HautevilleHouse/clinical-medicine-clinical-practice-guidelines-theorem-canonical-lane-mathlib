@@ -1,0 +1,9 @@
+import clinical_medicine_clinical_practice_guidelines_theorem_canonical_lane_mathlib.GateLemmas
+namespace HautevilleHouse
+namespace clinical_medicine_clinical_practice_guidelines_theorem_canonical_lane_mathlib
+structure ConstrainedTheoremClosure where
+  admissible :: intro :: constraint :: consequence :: proof ::
+theorem canonical : ConstrainedTheoremClosure :=
+  ConstrainedTheoremClosure.intro
+end clinical_medicine_clinical_practice_guidelines_theorem_canonical_lane_mathlib
+end HautevilleHouse
